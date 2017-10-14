@@ -6,7 +6,7 @@ osx_image: xcode9.1
 language: objective-c
 # cache: cocoapods
 podfile: Example/Podfile
-xcode_project: Example/CenteredCollectionView.xcodeproj # path to your xcodeproj folder
+xcode_project: Example/CenteredCollectionView.xcworkspace # path to your xcodeproj folder
 xcode_scheme: CenteredCollectionView_Tests
 before_install:
 - gem install cocoapods # Since Travis is not always on latest version
